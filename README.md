@@ -1,2 +1,34 @@
 # Internship
-This repository contains codes I developed during my summer internship.
+This repository contains codes that I developed during my summer internship.
+
+This repository is structured as followed:
+```
+|-- Synthetic_Dataset
+|   |-- Synthetic_Dataset_Basic.ipynb
+|   |-- Synthetic_Dataset_Advanced.ipynb
+|   |-- Synthetic_Dataset_HyperparameterTuning.ipynb
+|
+|-- Real_Dataset
+    |-- Real_Dataset_Model1_Bayesian.ipynb 
+    |-- Real_Dataset_Model1_Grid.ipynb 
+    |-- Real_Dataset_Model2_Bayesian.ipynb 
+    |-- Real_Dataset_Model2_Grid.ipynb 
+    |-- utils_model1.py
+    |-- utils_model2.py
+```
+
+The article includes two experiments — synthetic data and solar irradiance forecasting — each stored in its own folder named Synthetic_Dataset and Real_Dataset respectively. The dataset used in solar and EMS experiments is not available in this repository due to data privacy.
+
+- ``Synthetic_Dataset`` contains all experiment releated to synthetic dataset. 
+    - ``Synthetic_Dataset_Basic.ipynb`` contains basic Pytorch modelling.
+    - ``Synthetic_Dataset_Advanced.ipynb`` contains more advanced Pytorch modelling: involve with more complex synthetic dataset.
+    - ``Synthetic_Dataset_HyperparameterTuning.ipynb`` contains Pytorch modelling with hyperparameter optimization by using sklearn and skopts.
+
+- ``Real_Dataset`` contains all experiment releated to real dataset. 
+    - ``Real_Dataset_Model1_Bayesian.ipynb `` contains model 1 with hyperparameters tuning with Bayesian optimization using Optuna.
+    - ``Real_Dataset_Model1_Grid.ipynb `` contains model 1 with hyperparameters tuning with Grid seach using Optuna.
+    - ``Real_Dataset_Model2_Bayesian.ipynb `` contains model 2 with hyperparameters tuning with Bayesian optimization using Optuna.
+    - ``Real_Dataset_Model2_Grid.ipynb `` contains model 2 with hyperparameters tuning with Grid seach using Optuna.
+    - ``utils_model1.py`` contains functions used in Model 1.
+    - ``utils_model2.py`` contains functions used in Model 2.
+

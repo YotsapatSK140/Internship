@@ -17,7 +17,7 @@ This repository is structured as followed:
     |-- utils_model2.py
 ```
 
-The article includes two experiments — synthetic data and solar irradiance forecasting — each stored in its own folder named Synthetic_Dataset and Real_Dataset respectively. The dataset used in solar and EMS experiments is not available in this repository due to data privacy.
+The article includes two experiments — synthetic data and solar irradiance forecasting — each stored in its own folder named Synthetic_Dataset and Real_Dataset respectively. The real dataset used experiments is not available in this repository due to data privacy.
 
 - ``Synthetic_Dataset`` contains all experiment releated to synthetic dataset. 
     - ``Synthetic_Dataset_Basic.ipynb`` contains basic Pytorch modelling.
